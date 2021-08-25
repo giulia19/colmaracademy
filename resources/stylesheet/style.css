@@ -1,0 +1,452 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+   
+    color:#4b4b4b;
+    border-right:1px solid lightgray;
+    border-left:1px solid lightgray;
+}
+
+.mobile{
+    display: none;
+}
+.menu-bar{
+  float: right;
+   
+}
+ .header{
+padding: 2rem;
+
+flex-wrap:wrap ;
+ }
+ 
+ .logo{
+    display: inline-flex;
+    align-items: center;
+ }
+ .logo-img{
+     width: 32px;
+ }
+ ul{
+     display: flex;
+ }
+
+ li{
+     padding-right: 1rem;
+     list-style: none;
+     font-size: 18px;
+ }
+ a{
+     text-decoration: none;
+ }
+
+ 
+ /*BANNER*/
+
+.banner{
+  display: flex;
+    background-color: rgba(156, 152, 152, 0.664);
+}
+
+.media-container-banner{
+    margin-left:24px;
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2rem 0;
+}
+
+.supporting-content{
+    justify-content: center;
+  margin-left:24px;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+    font-size: 35px;
+ 
+    font-weight: bold;
+}
+
+p{
+    font-size: 30px;
+    
+}
+
+.button{
+    background-color: gray;
+    height: 36px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    font-display:inherit;
+    
+    color:white;
+    padding: .5rem 0;
+}
+
+/*INFORMATION*/
+
+.information-section{
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.main-content{
+   padding: 1.5rem 1.75rem;
+    flex-direction: column;
+    width: 60%
+      
+}
+
+.p-info{
+    font-size:20px;
+}
+
+
+
+.content-image-box{
+  display: flex;
+  align-items: center;
+  margin:8px;
+  border-top: solid 1px gray;
+}
+
+.text-content{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.img-info{
+    width: 100%;
+}
+
+.support-infor{
+  margin-top:32px;
+  margin-left:24px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  
+}
+
+.content-information:last-child{
+  background-color: rgba(201, 201, 201, 0.788);
+}
+
+.read-more{
+  color:rgb(100, 186, 214);
+}
+
+/*COURSES*/
+.courses-section{
+  background-color: rgb(212 212 212 / 79%);
+ 
+}
+.courses-row{
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  padding-right:.5rem;
+}
+.courses-row-2{
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  padding-right:.5rem;
+
+}
+.txt-center{
+  text-align: center;
+  margin-top: unset;
+    padding-top: 1rem;
+}
+
+
+
+.text-content-course{
+  font-size: 16px;
+  color: #353333;
+  margin-left: 16px;
+}
+
+
+p.details{
+  font-size: 16px;
+  color: rgb(121, 118, 118);
+}
+#img-course{
+  width: 300px;
+}
+
+
+h4{
+  font-size: 15px;
+  font-weight: normal;
+  color: #717070;
+}
+.course-1{
+ 
+  height: 320px;
+  width:300px;
+  background-color: white;
+  margin-right: 2rem;
+  float: left;
+
+ /* display: flex;
+    flex-direction: column;
+    margin-left:72px;
+    height: 340px;
+    width:300px;
+    background-color: white;
+    margin-right: 2rem;
+    float: left;*/
+}
+.course-2{
+  height: 320px;
+  width:300px;
+  background-color: white;
+  margin-right: 2rem;
+  float: left;
+
+ /* display: flex;
+    flex-direction: column;
+    margin-left:72px;
+    height: 340px;
+    width:300px;
+    background-color: white;
+    margin-right: 2rem;
+    float: left;*/
+ 
+}
+
+.course-3{
+  height: 320px;
+  width:300px;
+  background-color: white;
+  margin-right: 2rem;
+  float: left;
+
+ /* display: flex;
+    flex-direction: column;
+    margin-left:72px;
+    height: 340px;
+    width:300px;
+    background-color: white;
+    margin-right: 2rem;
+    float: left;*/
+}
+
+
+.course-4{
+ 
+    
+    height: 320px;
+    width:300px;
+    background-color: white;
+    margin-right: 2rem;
+    float: left;
+}
+
+.course-5{
+ 
+  height: 320px;
+  width:300px;
+  background-color: white;
+ margin-right: 2rem;
+  float: left;
+}
+
+.course-6{
+ 
+  height: 320px;
+  width:300px;
+  background-color: white;
+  
+  float: left;
+
+}
+
+
+
+
+
+
+
+
+/*THESIS*/
+.thesis-section{
+  background-color: rgba(222, 226, 230, 0.692);
+  
+  
+}
+.flex-content{
+  display: flex;
+}
+
+
+video{
+  width: 100%;
+}
+
+
+h5{
+  font-size: 20px;
+}
+.p-thesis{
+  font-size: 15px;
+  color: #717070;
+}
+
+.thesis-menu{
+  float: right;
+    width: 40%;
+    padding: 2rem;
+    
+}
+.content-image{
+  display: flex;
+}
+
+.content-image:first-child{
+  background-color: rgba(202, 199, 199, 0.671);
+}
+
+
+/*FOOTER*/
+
+.copyright{
+  text-align: left;
+  margin:1rem;
+}
+.privacy{
+  text-align: right;
+  margin:1rem;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES IPAD*/
+
+@media only screen 
+and (max-width: 1024px)
+
+  and (-webkit-min-device-pixel-ratio: 1){
+html{
+  display: inherit;
+}
+
+body{
+  display: block;
+  flex-direction: column;
+}
+.header{
+  padding: unset;
+    
+}
+.logo, .logo-img, .menu-bar{
+  display: none;
+}
+
+.mobile{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+ 
+}
+
+ul {
+  align-items: center;
+}
+li{
+  padding-right: 3rem;
+}
+.desktop  {
+  display: none;
+}
+.banner{
+  display: block;
+}
+.media-container-banner {
+   margin-left: 0;
+  width: 100%;
+padding: 0;
+}
+
+.supporting-content{
+text-align: center;
+margin-left:16px;
+margin-bottom:32px;
+}
+
+.img-info{
+  width: 120%;
+}
+
+
+.button{
+ 
+  width: 90%;  
+  font-size: 15px;
+  height: 26px;
+  margin: inherit;
+
+}
+.courses-row, .courses-row-2{
+  padding: 0;
+}
+.course-1, .course-2, .course-3, .course-4, .course-5, .course-6  {
+float:none;
+margin-top:1rem;
+
+}
+.course-6{
+  margin-bottom:1rem;
+}
+.img-thesis{
+  width:95%;
+  padding: .5rem;
+}
+}
+
+
+  @media only screen and (min-width: 375px)
+  and (max-width: 812px){
+    .main-content{
+      padding: 0;
+      flex-direction: unset;
+      width: unset;
+    }
+    .media-container-info{
+      display: none;
+    }
+    .img-info{
+      display: none;
+    }
+    .content-image-box{
+      display: block;
+    }
+    .support-infor{
+      margin: 0;
+      border:none;
+    }
+    .information-section {
+      background-color: unset;
+    }
+    .content-information:last-child{
+      background-color: unset;
+    }
+    .thesis-menu{
+      display: none;
+    }
+    .media-container{
+      display: flex;
+    }
+  
+  }
